@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC8SWCampus11AppUpgrader;
-
 @interface AppUpgradeTask
 
 - (void).cxx_destruct;
