@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#import "HomeAlertTask.h"
-
 @class _TtC8SWCampus11AppUpgrader;
 
-@interface AppUpgradeTask : HomeAlertTask
-{
-    _TtC8SWCampus11AppUpgrader *_upgrader;
-}
+@interface AppUpgradeTask
 
 - (void).cxx_destruct;
-@property(retain, nonatomic) _TtC8SWCampus11AppUpgrader *upgrader; // @synthesize upgrader=_upgrader;
 - (void)execute:(id)arg1;
 - (id)init;
 
